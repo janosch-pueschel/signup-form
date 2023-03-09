@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Sign-Up Form</title>
+  </head>
+  <body>
+    <div class="image__container">
+      <img
+        src="img/kayakventure-logo.png"
+        alt="kayakventure-logo"
+        class="logo"
+      />
+      <p class="image__source">
+        Photo by
+        <a
+          href="https://unsplash.com/@matthewwmcb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          class="image__source--link"
+          >Matthew McBrayer</a
+        >
+        on
+        <a
+          href="https://unsplash.com/de/fotos/kgkGRmi-EtI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          class="image__source--link"
+          >Unsplash</a
+        >
+      </p>
+    </div>
+    <div class="main__container">
+      <div class="main__text">
+        <h1 class="main__heading">Sign up for your next adventure!</h1>
+        <p class="main__paragraph">
+          This is not a real online service! Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Necessitatibus, commodi! Sign up now to
+          get started.
+          <br /><br />
+          You <i>know</i> you want to.
+        </p>
+      </div>
+      <div class="form__container">
+        <form action="" method="post " class="form--layout">
+          <div class="form__input">
+            <label for="first-name" class="form__label--style">First Name</label
+            ><br />
+            <input
+              type="text"
+              id="first-name"
+              required
+              class="form__input--style"
+            />
+          </div>
+          <div class="form__input">
+            <label for="last-name" class="form__label--style">Last name</label
+            ><br />
+            <input type="text" id="last-name" class="form__input--style" />
+          </div>
+          <div class="form__input">
+            <label for="mail" class="form__label--style">Email</label><br />
+            <input type="email" id="mail" class="form__input--style" />
+          </div>
+          <div class="form__input">
+            <label for="phone" class="form__label--style">Phone Number</label
+            ><br />
+            <input type="tel" id="phone" class="form__input--style" />
+          </div>
+          <div class="form__input">
+            <label for="password" class="form__label--style">Password</label
+            ><br />
+            <input
+              type="password"
+              id="password"
+              minlength="8"
+              required
+              class="form__input--style"
+            />
+          </div>
+          <div class="form__input">
+            <label for="password-confirm" class="form__label--style"
+              >Confirm Password</label
+            ><br />
+            <input
+              type="password"
+              id="password-confirm"
+              minlength="8"
+              required
+              class="form__input--style"
+            />
+          </div>
+          <button class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

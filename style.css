@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image__container {
+  width: 35vw;
+  height: 100vh;
+  background-image: url(img/matthew-mcbrayer-kgkGRmi-EtI-unsplash.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  width: 100%;
+  margin-bottom: 60vh;
+  opacity: 0.8;
+}
+
+.image__source {
+  color: #ede6d6;
+  margin-bottom: 20px;
+}
+
+.image__source--link {
+  color: #eae0c8;
+  text-decoration: none;
+}
+
+.main__container {
+  width: 65vw;
+  height: 100vh;
+  background-color: #242526;
+  color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main__text {
+  padding: 0 100px 0 100px;
+}
+
+.main__heading {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.main__paragraph {
+  font-size: 20px;
+}
+
+.form__container {
+  padding: 0 100px 0 100px;
+}
+
+.form--layout {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: repeat(2, minmax(120px, 300px));
+  justify-items: center;
+}
+
+.form__input {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.form__label--style {
+  padding-bottom: 50px;
+}
+
+.form__input--style {
+  width: 100%;
+  height: 30px;
+  padding: 5px 10px 5px 10px;
+  margin-top: 5px;
+  border: #5e6e6b 2px solid;
+  border-radius: 5px;
+  background-color: #5e6e6b;
+  background-color: #242526;
+  color: #e1e0e0;
+  font-size: 18px;
+}
+
+.form__input--style:focus {
+}
+
+.submit-btn {
+  justify-self: start;
+  width: 200px;
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  background-color: #5e6e6b;
+  color: #e1e0e0;
+  border: #5e6e6b 2px solid;
+  border-radius: 5px;
+}
