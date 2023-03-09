@@ -41,33 +41,56 @@
         </p>
       </div>
       <div class="form__container">
-        <form action="" method="post " class="form--layout">
+        <form action="#" method="post " class="form--layout">
           <div class="form__input">
-            <label for="first-name" class="form__label--style">First Name</label
+            <label for="first-name" class="form__label--style"
+              >*First Name</label
             ><br />
             <input
               type="text"
               id="first-name"
               required
               class="form__input--style"
+              placeholder="John"
+              autofocus
             />
           </div>
           <div class="form__input">
-            <label for="last-name" class="form__label--style">Last name</label
+            <label for="last-name" class="form__label--style">*Last name</label
             ><br />
-            <input type="text" id="last-name" class="form__input--style" />
+            <input
+              type="text"
+              id="last-name"
+              class="form__input--style"
+              placeholder="Doe"
+              required
+            />
           </div>
           <div class="form__input">
-            <label for="mail" class="form__label--style">Email</label><br />
-            <input type="email" id="mail" class="form__input--style" />
+            <label for="mail" class="form__label--style">*Email</label><br />
+            <input
+              type="email"
+              id="mail"
+              class="form__input--style"
+              placeholder="johndoe@mail.com"
+              required
+              title="Please enter a valid E-Mail-Adress."
+            />
           </div>
           <div class="form__input">
             <label for="phone" class="form__label--style">Phone Number</label
             ><br />
-            <input type="tel" id="phone" class="form__input--style" />
+            <input
+              type="tel"
+              id="phone"
+              class="form__input--style"
+              pattern="\d{10,}"
+              placeholder="(555) 555-1234"
+              title="Please enter a valid telephone number."
+            />
           </div>
           <div class="form__input">
-            <label for="password" class="form__label--style">Password</label
+            <label for="password" class="form__label--style">*Password</label
             ><br />
             <input
               type="password"
@@ -79,7 +102,7 @@
           </div>
           <div class="form__input">
             <label for="password-confirm" class="form__label--style"
-              >Confirm Password</label
+              >*Confirm Password</label
             ><br />
             <input
               type="password"
